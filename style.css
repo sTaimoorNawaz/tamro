@@ -1,6 +1,6 @@
 /* Home Page Styling */
-.TextLarge{
-  font-family: 'Fira Sans Condensed', sans-serif;
+.TextLarge {
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 a > img {
@@ -8,7 +8,7 @@ a > img {
   top: -3px;
 }
 
-.hover-activate{
+.hover-activate {
   text-decoration: underline;
   text-underline-offset: 10px;
   text-decoration-thickness: 0.1em;
@@ -37,23 +37,23 @@ a > img {
   transition: 0.5s;
 }
 
-.cards-btn{
+.cards-btn {
   margin-top: -20px;
   z-index: 1;
   position: relative;
 }
 
-.cards-btn:hover{
+.cards-btn:hover {
   background-color: rgba(0, 0, 0, 0.689);
   transition: 0.5s;
 }
 
-.dis-btn:hover{
+.dis-btn:hover {
   background-color: rgba(0, 0, 0, 0.689);
   transition: 0.5s;
 }
 
-.fot-btn:hover{
+.fot-btn:hover {
   background-color: lightgray !important;
   color: black !important;
   transition: 0.5s !important;
