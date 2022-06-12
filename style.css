@@ -62,5 +62,20 @@ a > img {
 /* Home Page Styling End */
 
 /* Shop Page Styling Start */
-
+.box {
+  border: 1px solid lightgray;
+}
 /* Shop Page Styling End */
+
+::placeholder{
+  color: white;
+  opacity: .5;
+}
+
+.bg-set{
+  background-color: rgba(224, 224, 224, 0.744);
+}
+
+.full-hight{
+  height: 100vh !important;
+}

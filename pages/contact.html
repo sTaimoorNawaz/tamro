@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400&display=swap" rel="stylesheet">
 
     <!-- Favicon Ico/ Tab Icon -->
-    <link rel="shortcut icon" href="tamro.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/buyer.png" type="image/x-icon">
     <title>CONTACT US</title>
 
     <!-- Linking Bootstrap -->
@@ -64,7 +64,99 @@
     </div>
     <!-- Navbar End -->
 
+    <div>
+        <div class="row m-0 p-0">
+            <div class="col-md-7">
+                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1896,h=1632,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw03VXpgcWNz19.jpg"
+                    alt="" class="img-fluid full-hight" width="700px">
+            </div>
+            <div class="col-md-5">
+                <div class="m-0 p-0">
+                    <h1 class="TextLarge fs-1">Get in touch</h1>
+                    <!-- Form -->
+                    <form class="row needs-validation" novalidate>
+                        <!-- Name -->
+                        <div class="col-md-12">
+                            <label for="validationCustom01" class="form-label mb-0 mt-4">Name*</label>
+                            <input type="text" class="form-control border-0 rounded-0 bg-set px-2 py-3"
+                                id="validationCustom01" required placeholder="Your Name">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
 
+                        <div class="col-md-12">
+                            <label for="validationCustom02" class="form-label mb-0 mt-3">Last Name</label>
+                            <input type="text" class="form-control border-0 rounded-0 bg-set px-2 py-3"
+                                id="validationCustom02" required placeholder="Your Last Name">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label mb-0 mt-3">Email*</label>
+                            <input type="email" class="form-control border-0 rounded-0 bg-set px-2 py-3"
+                                id="validationCustom03" required  placeholder="Your Email">
+                            <div class="invalid-feedback">
+                                Please Enter Your Email.
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-12">
+                            <label for="validationTextarea" class="form-label mb-0 mt-3">Message*</label>
+                            <textarea class="form-control border-0 rounded-0 bg-set" id="validationTextarea"
+                                placeholder="Enter Your Message" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message in the textarea.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-dark text-white rounded-0 px-5 py-3 hover-btn mt-2" type="submit">Submit
+                                form</button>
+                        </div>
+                    </form>
+
+                    <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (() => {
+                            'use strict'
+
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            const forms = document.querySelectorAll('.needs-validation')
+
+                            // Loop over them and prevent submission
+                            Array.from(forms).forEach(form => {
+                                form.addEventListener('submit', event => {
+                                    if (!form.checkValidity()) {
+                                        event.preventDefault()
+                                        event.stopPropagation()
+                                    }
+
+                                    form.classList.add('was-validated')
+                                }, false)
+                            })
+                        })()
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Section 5 Footer Start -->
     <div class="footer">
